@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/arlista-style.css">
+    <script src="./js/index-script.js"></script>
+    <title>ÁRLISTA</title>
+    <link rel="icon" type="image/x-icon" href="./img/icon2.png">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a class="menu-left" href="#">MB_Masszőr</a></li>
+            <li><a class="menu-right" href="kapcsolat.html">Kapcsolat</a></li>
+            <li><a class="menu-right" href="arlista.html">Árlista</a></li>
+            <li><a class="menu-right" onclick="openForm();" href="#">Rólam</a></li>
+            <li><a class="menu-right" href="index.html">Kezdőlap</a></li>
+          </ul>
+    </nav>
+<div class="opacity"></div>
+    <div class="maincontent">
+        <br><br><h1>ÁRLISTA:</h1><br>
+        <div class="arlista">
+            <h2>Svédmasszázs</h2><hr>
+            <span class="perc">15 perc</span>	<span class="ft">3000 Ft</span><br><hr>
+            <span class="perc">30 perc</span>	<span class="ft">5000 Ft</span><br><hr>
+            <span class="perc">45 perc</span>	<span class="ft">6500 Ft</span><br><hr>
+            <span class="perc">60 perc</span>	<span class="ft">8500 Ft</span><br><hr><br><br>
+
+            Szolgáltatásaim részét képzi, prevenciós illetve svédmasszázs különböző eszközökkel kiegészítve (méz, köpöly, masszázs pisztoly).
+        </div>
+    </div>
+
+    <div class="akcio">
+        1. alkalomra <b>15%</b> kedvezmény jár!
+    </div>
+
+
+
+
+    <div class="formPopup" id="popupForm">
+        <div class="content">
+            <p>Tóth Gergely vagyok. 2023-ban szereztem meg masszázs képesítésem. <br><br>
+                Hosszú sportkarrierem- illetve mindennapjaim során rájöttem, hogy elengedhetetlen tesünk karbantartása. <br><br> A masszázs célja egy teljes körű testi- lelki feltöltődés, melyet szeretnék biztosítani minden leendő vendégem számára. <br><br>
+                Szolgáltatásaim részét képzi, prevenciós illetve svédmasszázs különböző eszközökkel kiegészítve (méz, köpöly, masszázs pisztoly).</p>
+            <button type="button" class="btn cancel" onclick="closeForm()">X</button>
+        </div>
+    </div>
+</body>
+</html>

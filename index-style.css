@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+nav{
+    box-shadow: 0px 0px 10px #dedede;
+    background-color: white;
+    opacity: 0.85;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+nav ul{
+    margin: 0px auto;
+    list-style-type: none;
+}
+
+nav ul li a{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 25px;
+    color: black;
+    font-weight: 500;
+}
+
+nav ul li .menu-left{
+    float: left;
+}
+
+nav ul li .menu-right{
+    float: right;
+    transform: translate(-30px)
+}
+
+.imgs{
+    background-color: white;
+    width: 100%;
+    height: 600px
+}
+
+.kep{
+    float: right;
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 65px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.infos{
+    margin-top: -25px;
+    background-color: white;
+    height: 200px;
+    width: 100%;
+}
+
+.szoveg{
+    margin-top: -150px;
+    margin-left: 50px;
+    text-align: center;
+    width: 550px;
+}
+
+.szoveg2{
+    text-align: center;
+    margin-top: -140px;
+}
+
+.szoveg3{
+    text-align: center;
+    float: right;
+    width: 660px;
+    margin-top: -160px;
+}
+
+.akcio{
+    background-color: white;
+    opacity: 0.85;
+    text-align: center;
+    box-shadow: 0px 0px 10px #dedede;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 25px;
+    color: black;
+    font-weight: 500;
+}
+
+.akcio b{
+    color: red;
+}
+.velemenyek{
+    background-color: white;
+    height: 130px;
+}
+
+.pfp{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-top: -50px;
+    transform: translate(550px);
+}
+
+.star{
+    float: right;
+    transform: translate(-550px);
+    margin-right: 200px;
+}
+
+.formPopup {
+    display: none;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(380px, -160px);
+    box-shadow: 0px 0px 10px #dedede;
+    border-radius: 20%;
+    z-index: 9;
+    background-color: white;
+    opacity: 0.85;
+    padding: 25px;
+    width: 300px;
+    font-weight: 600;
+    height: 320px;
+}
+  
+.formContainer {
+    max-width: 300px;
+    padding: 10px;
+    
+}
+.content p{
+    margin-top: -5px;
+}
+.content button{
+  transform: translate(130px);
+}
+
+.btn{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.szoveg2 a{
+    text-decoration: none;
+    color: red;
+}
+
+.szoveg2 a:hover{
+    color: red;
+}
